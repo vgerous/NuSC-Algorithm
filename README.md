@@ -26,10 +26,10 @@ conda install --file requirements.txt
 NuSC algorithm can be run with binary file: **NuSC-algorithm/NuSC/NuSC**
 ##### Example (Run NuSC on rail benchmark)
 ```
-./NuSC-algorithm/NuSC/NuSC  <dataset> <time limits> <seed> <score-weight> <tabu-size> <novelty> 
+./NuSC/NuSC  <dataset> <time limits> <seed> <score-weight> <tabu-size> <novelty> 
 ```
 ```bash
-./NuSC-algorithm/NuSC/NuSC benchmark/rail/rail516.txt.standard.txt 1000 1 5 4 0.3 > results/rail/rail516.txt.standard.txt_with_seed_1.out
+./NuSC/NuSC benchmark/rail/rail516.txt.standard.txt 1000 1 5 4 0.3 > results/rail/rail516.txt.standard.txt_with_seed_1.out
 ```
 
 #### 2. Run script
@@ -37,7 +37,7 @@ NuSC algorithm can be run with script: **NuSC-algorithm/run_mysolver.py**
 
 ##### Example (Run NuSC on rail benchmark)
 ```bash
-python NuSC-algorithm/run_mysolver.py rail
+python run_mysolver.py rail
 ```
 
 ## 2. Run Competitors
