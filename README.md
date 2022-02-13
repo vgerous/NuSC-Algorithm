@@ -1,5 +1,5 @@
 # NuSC
-- A Novel Combined Score based Local Search Algorithm for Weighted Set Covering
+- An Effective Local Search Algorithm for Solving the Set Covering Problem
 
 
 ## 1. Set up
