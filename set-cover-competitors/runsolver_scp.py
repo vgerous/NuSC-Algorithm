@@ -11,9 +11,9 @@ import subprocess, threading
 
 def RunSeedV3(seed, data_index, solver, dataname):
     if solver == 'domsat':
-        command = "./domsat/domsat/DomSAT benchmark/" + dataname + "/" + str(data_index) + " 1000 > result/" + solver + "/" + dataname + "/" + str(data_index) + "_seed_" + str(seed)
+        command = "./domsat/domsat/DomSAT benchmark/" + dataname + "/" + str(data_index) + " 1000 > results/" + solver + "/" + dataname + "/" + str(data_index) + "_seed_" + str(seed)
     elif solver == 'wcc':
-        command = "./wscp_new/wscp_new/Dist benchmark/" + dataname + "/" + str(data_index) + " 1 " + str(seed) + " 1000 > result/" + solver + "/" + dataname + "/" + str(data_index) + "_seed_" + str(seed)
+        command = "./wscp_new/wscp_new/Dist benchmark/" + dataname + "/" + str(data_index) + " 1 " + str(seed) + " 1000 > results/" + solver + "/" + dataname + "/" + str(data_index) + "_seed_" + str(seed)
     cmd = command
     os.system(cmd)
 
