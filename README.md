@@ -1,5 +1,5 @@
 # NuSC
-- A Novel Combined Score based Local Search Algorithm for Weighted Set Covering
+- An Effective Local Search Algorithm for Solving the Set Covering Problem
 
 
 ## 1. Set up
@@ -37,7 +37,7 @@ NuSC algorithm can be run with script: **NuSC-algorithm/run_mysolver.py**
 
 ##### Example (Run NuSC on rail benchmark)
 ```bash
-python NuSC/run_mysolver.py rail
+python run_mysolver.py rail
 ```
 
 ## 2. Run Competitors
