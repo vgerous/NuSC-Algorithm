@@ -2,7 +2,7 @@
 - An Effective Local Search Algorithm for Solving the Set Covering Problem
 
 
-## Run NuSC solver
+## 1. Run NuSC solver
 
 #### 1. Clone the repository
 ```bash
